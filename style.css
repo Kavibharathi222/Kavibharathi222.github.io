@@ -304,3 +304,69 @@ h3{
     text-align: center;
  }
 
+@media screen and (max-width: 768px) {
+
+    /* Adjust the container for mobile */
+    .Container {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        text-align: center;
+    }
+
+    /* Image adjustments for mobile */
+    .image img {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    /* Adjust heading size for mobile */
+    .i.am h1 {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+
+    /* Card container adjustments for mobile */
+    .card-container {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    /* Adjust skill bar width for mobile */
+    .skill {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .Kavi {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Other adjustments */
+    nav td {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        border: none;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .contactme a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    /* Additional adjustments as needed */
+}
+
